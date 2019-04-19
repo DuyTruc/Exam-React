@@ -36,7 +36,7 @@ class TaskItem extends Component {
               Task Content :  {this.props.taskContent}
               </div>
                 <div className="btn-group float-right">
-                    <button onClick = {() => this.twoActionButton()} type="button" className="btn btn-outline-info">Edit</button>
+                    <button onClick = {() => this.twoActionButton()} type="button" className="btn btn-outline-info">Edit.</button>
                     <button onClick = {() => this.deleteTask()} type="button" className="btn btn-outline-secondary">Delete</button>
                 </div>
               </h5>
