@@ -6,6 +6,7 @@ import TaskForm from './components/TaskForm';
 import { connect } from 'react-redux';
 import Footer from './components/Footer';
 import AlertInfo from './components/AlertInfo';
+import Search from './components/Search';
 
 class App extends Component {
 
@@ -20,6 +21,8 @@ class App extends Component {
       <div>
         <Nav/>
         <AlertInfo/>
+        <Search/>
+        <br></br>
         <div className="">
           <div className="row" >
             <TaskList status = "ToDo"/>
