@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TaskItem from './TaskItem';
-import {taskData} from '../firebaseConnect';
+import {taskData} from '../dao/firebaseConnect';
 
 class TaskList extends Component {
    constructor(props) {
